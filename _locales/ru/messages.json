@@ -1,0 +1,569 @@
+{
+  "infoBarBlockedByReferrer": {
+    "message": "Так как вы перешли на эту страницу с запрещенного сайта, проведенное на ней время вычитается из предельного.",
+    "description": "A blocked site is a site the user has added to a list of time-wasting websites. Max Allowed Time is the maximum time they are allowed to spend on blocked sites."
+  },
+  "refreshToSeeImportedSettings": {
+    "message": "Чтобы все импортированные настройки вступили в силу, вам, возможно, потребуется обновить эту страницу."
+  },
+  "removeSiteFromAllowedSitesList": {
+    "message": "Удалить $siteName$ из списка разрешенных сайтов",
+    "placeholders": {
+      "siteName": {
+        "content": "$1",
+        "example": "YouTube.com"
+      }
+    }
+  },
+  "cannotChangeTimeOnceTimeIsUp": {
+    "message": "Так как время на сегодня уже истекло, вы не можете изменить предельное значение. Повторите попытку завтра."
+  },
+  "for": {
+    "message": "на",
+    "description": "For example, 'StayFocusd will block images _for_ all websites'"
+  },
+  "cannotImportAfterTimeExpired": {
+    "message": "Ваше время на сегодня истекло. Вы сможете импортировать настройки только после того, как пройдет время ежедневного сброса."
+  },
+  "onlyHurtingYourself": {
+    "message": "Нет, ну серьезно. Идея этого расширения состоит в том, чтобы не давать вам тянуть время. Вы же делаете себе только хуже. К тому же каждый раз, когда вы нажимаете кнопку \"ОК\", котенок получает удар током. Вам это точно надо?"
+  },
+  "activeOverMidnight": {
+    "message": "$extensionName$ будет работать с $startTime$ до полуночи и с полуночи до $endTime$. Правильно?",
+    "description": "When fully parsed, the message will read something like: 'StayFocusd will be active between 7:00 PM and midnight, and then between midnight at 6:00 AM. Are you sure that's what you meant to do?'",
+    "placeholders": {
+      "startTime": {
+        "content": "$1",
+        "example": "9:00 AM"
+      },
+      "extensionName": {
+        "content": "StayFocusd"
+      },
+      "endTime": {
+        "content": "$2",
+        "example": "7:00 PM"
+      }
+    }
+  },
+  "blockNotification": {
+    "message": "$extensionName$ начнет блокировать запрещенные сайты через",
+    "description": "For example, 'StayFocusd will start blocking your Blocked Sites in 10 minutes'",
+    "placeholders": {
+      "extensionName": {
+        "content": "StayFocusd"
+      }
+    }
+  },
+  "errorLoadingSuggestedSites": {
+    "message": "Ошибка при загрузке рекомендуемого списка сайтов. Сообщите о ней по адресу $supportEmail$.",
+    "placeholders": {
+      "supportEmail": {
+        "content": "support@stayfocusd.com"
+      }
+    }
+  },
+  "nuclearOptionActiveUntil": {
+    "message": "Тотальная блокировка действует до",
+    "description": "Active until a certain time, i.e. active until 1:00 PM"
+  },
+  "timeRemaining": {
+    "message": "ОСТАВШЕЕСЯ ВРЕМЯ",
+    "description": "The amount of time left before the clock runs out."
+  },
+  "rightNow": {
+    "message": "Прямо сейчас",
+    "description": "Immediately"
+  },
+  "forTime": {
+    "message": "в течение",
+    "description": "For a period of time. For example, 'StayFocusd will block images _for_ 1 hour'"
+  },
+  "loading": {
+    "message": "загрузка"
+  },
+  "canOnlyImportExportedFile": {
+    "message": "Можно импортировать только файл настроек, экспортированный из $extensionName$ с помощью соответствующей функции.",
+    "placeholders": {
+      "extensionName": {
+        "content": "StayFocusd"
+      }
+    }
+  },
+  "done": {
+    "message": "готово",
+    "description": "Completed"
+  },
+  "numberOfKeysDoesNotMatch": {
+    "message": "Так, что тут у нас? Число нажатий клавиш не соответствует количеству знаков в поле. Значит, копирование и вставка, да? Жульничаем? Придется начать все сначала.",
+    "description": "This is shown when the user tries to cheat, bypassing a typing challenge by cutting-and-pasting text into it. Don't translate 'Pretty sneak, sis' -- it probably won't make sense in non-English contexts"
+  },
+  "areYouSure": {
+    "message": "Продолжить?",
+    "description": "Are you sure you want to confirm these settings?"
+  },
+  "selectedTimeHasPassed": {
+    "message": "Заданное время уже истекло, так что",
+    "description": "Segment of string like, 'Your selected time has already passed, so the Nuclear Option will go into effect immediately.'"
+  },
+  "february": {
+    "message": "февраля"
+  },
+  "dailyResetQueued": {
+    "message": "Время ежедневного сброса настроено. ВАЖНО! Это изменение вступит в силу только через 24 часа."
+  },
+  "cannotAddAllowedSitesDuringNuclearOption": {
+    "message": "Пока действует тотальная блокировка, вы не можете пополнять список разрешенных сайтов.",
+    "description": "In this context, the 'Nuclear Option' is an idiom meaning 'the most extreme option'."
+  },
+  "importEmailSupport": {
+    "message": "Если вы это сделали, но ошибка не исчезла, напишите по адресу $supportLink$, прикрепив к сообщению файл настроек, который пытаетесь импортировать.",
+    "placeholders": {
+      "supportLink": {
+        "content": "<a href=\"mailto:support@stayfocusd.com?subject=Error%20importing%20settings\">support@stayfocusd.com</a>"
+      }
+    }
+  },
+  "tellingYourMom": {
+    "message": "Я все расскажу вашей маме!"
+  },
+  "desc": {
+    "message": "[Это утверждается в The Washington Post, U.S. News And World Report, LifeHacker, Mashable, PCMag, CNET, ReadWriteWeb, Gizmodo, GigaOm, MaximumPC, The Huffington Post, MakeUseOf и других изданиях!]\n\nВы садитесь за компьютер и даете себе обещание как следует поработать. И что же вы обнаруживаете 12 часов спустя? Вы проверили электронную почту, обновили статус в Facebook, посмотрели популярные темы в Twitter, почитали RSS-фиды, нашли в Википедии свою любимую группу, поискали себя в Google, посмотрели, что нового у ваших бывших, полюбовались фотографиями своих сокурсников в Facebook, полили цветочки в Farmville и спустили недельную зарплату в онлайн-покере.\n\nВы успели сделать все, кроме РАБОТЫ.\n\nStayFocusd – это расширение для Google Chrome, которое помогает вам сосредоточиться на работе, ограничивая время, которое вы тратите на сайтах впустую. После истечения установленного времени доступ к запрещенным вами сайтам блокируется до конца дня.\n\nПрограмма очень гибко настраивается: вы можете пометить как запрещенные или разрешенные не только сайты, но и конкретные субдомены, пути, страницы и даже определенный контент на странице (видео, игры, изображения, формы и т. д.).\n\nРасширение StayFocusd было разработано Уорреном Бенедетто из компании Transfusion Media (http://www.transfusionmedia.com). Эта творческая мастерская в Лос-Анджелесе специализируется на веб-дизайне, программировании в среде PHP/MySQL и Flash-разработке. \n\nЕсли вы хотите сообщить о проблеме, задать вопрос, высказать предложение или просто выразить бурный восторг, оставьте сообщение на странице http://getsatisfaction.com/stayfocusd. \n\nЧтобы получать новости об обновлениях и исправлениях, подпишитесь на @stayfocusd на странице http://twitter.com/stayfocusd. \n\nПОСЛЕДНЯЯ ВЕРСИЯ: 1.2.0.15.\nРешена следующая проблема: функция тотальной блокировки, настроенная на активацию только в определенное время текущего дня, не начинала блокировать сайты в указанное время.\nВнесено следующее изменение: теперь после истечения предельного времени нельзя пополнять список разрешенных сайтов, используя подстановочные знаки. Раньше люди пользовались этим для продления доступа к запрещенным сайтам."
+  },
+  "currentlyOn": {
+    "message": "Вы просматриваете сайт",
+    "description": "Indicates the domain the user is currently on, i.e. You are currently on cnn.com"
+  },
+  "challengeTextSet": {
+    "message": "Кодовый текст настроен."
+  },
+  "activityMonitorOverlayHeader": {
+    "message": "Ау, вы еще здесь?",
+    "description": "Displayed to user when they have been inactive for 5 minutes."
+  },
+  "blockAllowMultipleSites": {
+    "message": "Хотите запретить или разрешить доступ к нескольким сайтам одновременно?"
+  },
+  "block": {
+    "message": "Запретить доступ",
+    "description": "Disallow access"
+  },
+  "helpFAQ": {
+    "message": "Справка/часто задаваемые вопросы",
+    "description": "Links to page with help and frequently asked questions (FAQ)"
+  },
+  "nuclearOption" : {
+    "message" : "тотальная блокировка",
+    "description" : "Links to settings for Nuclear Option"
+  },
+  "logins": {
+    "message": "имена для входа",
+    "description": "Website login forms"
+  },
+  "noSitesYet": {
+    "message": "Список пуст",
+    "description": "No sites are on the list yet"
+  },
+  "addToList": {
+    "message": "Добавить",
+    "description": "Add to list"
+  },
+  "blockCustomURL": {
+    "message": "Запретить доступ к пользовательскому URL"
+  },
+  "advancedOptions": {
+    "message": "Дополнительные параметры"
+  },
+  "atTime": {
+    "message": "в",
+    "description": "At a specific time, i.e. at 1:00 PM"
+  },
+  "manifestDescription": {
+    "message": "$extensionName$ повышает эффективность вашей работы, ограничивая время, которое вы можете потратить на веб-сайтах впустую.",
+    "description": "Extension description in manifest.json",
+    "placeholders": {
+      "extensionName": {
+        "content": "StayFocusd"
+      }
+    }
+  },
+  "september": {
+    "message": "сентября"
+  },
+  "may": {
+    "message": "мая"
+  },
+  "defaultChallengeText": {
+    "message": "Любитель тянуть время обычно не сомневается, что успеет закончить работу в срок (а тогда зачем торопиться начинать ее?), и уверяет, что у него все под контролем. Время пролетает незаметно. В итоге в какой-то момент становится ясно, что приступить к работе следовало уже давно, а сдавать ее нужно уже скоро.",
+    "description": "The user must re-type this paragraph perfectly, letter for letter, with no mistakes before being allowed to change settings. Therefore, every character in this text must be one that the user can type on his keyboard. Please translate with that in mind."
+  },
+  "maybeYouShouldReconsider": {
+    "message": "Пытаетесь дать себе побольше времени? Может, не стоит? Вы уверены, что хотите увеличить предельное время?"
+  },
+  "whenMaxTimeExceeded": {
+    "message": "Когда истечет предельное время",
+    "description": "When I have used my allotted time"
+  },
+  "madeAMistake": {
+    "message": "Ошибочка. Вам действительно необходимо изменить эти параметры или вы пытаетесь схитрить? Только честно! В любом случае придется начать сначала.",
+    "description": "This is shown when the user makes a mistake in a typing challenge that is meant to prevent them from cheating by changing their settings."
+  },
+  "onMonday": {
+    "message": "в понедельник"
+  },
+  "cannotChooseMoreLenientSetting": {
+    "message": "Пока тотальная блокировка остается в силе, вы не сможете сделать ее настройки более мягкими.",
+    "description": "'while it is active' = 'while the Nuclear Option is active'"
+  },
+  "notEnoughVariation": {
+    "message": "Так, что тут у нас… Символы в кодовом тексте подозрительно часто повторяются. Придумайте что-нибудь посложнее.",
+    "description": "This is shown when the user tries to set a custom typing challenge that is too easy, like a repeating sequence of the same character(s)."
+  },
+  "hourOrMore": {
+    "message": "ч.",
+    "description": "One or more hours"
+  },
+  "onlyBlockPagesOn": {
+    "message": "Блокировать только страницы на сайте",
+    "description": "For example, 'Only block pages on cnn.com'"
+  },
+  "cannotBlockStayFocusd": {
+    "message": "Вы не можете добавить $domain$ в список запрещенных сайтов.",
+    "placeholders": {
+      "domain": {
+        "content": "stayfocusd.com"
+      }
+    }
+  },
+  "october": {
+    "message": "октября"
+  },
+  "maxTimeHasBeenExceeded": {
+    "message": "Предельное время на сегодня истекло, так что",
+    "description": "Segment of string like, 'Your Max Time Allowed for today has already been exceeded, so the Nuclear Option will go into effect immediately.'"
+  },
+  "thisEntireSite": {
+    "message": "весь этот сайт"
+  },
+  "settingsUpdated": {
+    "message": "Настройки обновлены."
+  },
+  "timeAM": {
+    "message": "AM",
+    "description": "Morning time, i.e. 10:00 AM"
+  },
+  "hideOnce": {
+    "message": "скрыть только сейчас",
+    "description": "Don't show info bar right now"
+  },
+  "settings": {
+    "message": "Настройки"
+  },
+  "cannotRemoveBlockedSites": {
+    "message": "Ваше время на сегодня истекло. Пока не наступит время ежедневного сброса, вы не сможете удалить сайты из списка запрещенных (зато сможете пополнить этот список)."
+  },
+  "close": {
+    "message": "закрыть",
+    "description": "Clicked to close popup window"
+  },
+  "march": {
+    "message": "марта"
+  },
+  "activeHoursSet": {
+    "message": "Рабочие часы настроены."
+  },
+  "january": {
+    "message": "января"
+  },
+  "july": {
+    "message": "июля"
+  },
+  "lessThanThreeMins": {
+    "message": "Меньше чем через три минуты ваше время истечет. Вы ведь не пытаетесь хитрить, правда? Чтобы обновить настройки, нажмите \"ОК\"."
+  },
+  "greaterThanZero": {
+    "message": "Значение должно быть больше 0."
+  },
+  "lessThanThreeMins8": {
+    "message": "Хорошо, хорошо... Я умываю руки. Но прежде чем я изменю настройки, вы должны кое о чем узнать. Существует крошечный, малюсенький шанс, что нажатие кнопки \"ОК\" спровоцирует мировую ядерную войну. Да, а еще щенок может получить удар током! Конечно, никаких гарантий нет, но кто знает... Кто предупрежден, тот вооружен. Валяйте, нажимайте."
+  },
+  "lessThanThreeMins7": {
+    "message": "Вам не стыдно?"
+  },
+  "lessThanThreeMins6": {
+    "message": "Вы твердо это решили?"
+  },
+  "timeExpiredCannotChangeUntilTomorrow": {
+    "message": "Ваше время на сегодня истекло. Изменить эти настройки вы сможете только завтра."
+  },
+  "november": {
+    "message": "ноября"
+  },
+  "lessThanThreeMins5": {
+    "message": "Теперь понятно, почему мы еще не купаемся в роскоши."
+  },
+  "givingLessTime": {
+    "message": "Вы даете себе МЕНЬШЕ времени? Достойно аплодисментов. Отличная идея, дружище!",
+    "description": "The user has made his settings more strict, so we want to congratulate him."
+  },
+  "commencingNuclearOption": {
+    "message": "В силу вступает тотальная блокировка, и будь что будет.",
+    "description": "This is meant to be humorous. The Nuclear Option is an extreme measure, so we're wishing them good luck in a humorous way."
+  },
+  "nuclearOptionImmediately": {
+    "message": "тотальная блокировка вступит в силу прямо сейчас.",
+    "description": "In this context, the 'Nuclear Option' is an idiom meaning 'the most extreme option'."
+  },
+  "nuclearNotification": {
+    "message": "$extensionName$: тотальная блокировка вступит в силу через",
+    "description": "For example, 'StayFocusd's Nuclear Option will start blocking sites in 10 minutes'",
+    "placeholders": {
+      "extensionName": {
+        "content": "StayFocusd's"
+      }
+    }
+  },
+  "stayFocusdWillBlock": {
+    "message": "$extensionName$ будет блокировать",
+    "description": "Segment of full string: 'StayFocusd will block all sites' or 'StayFocusd will block multimedia and forms'",
+    "placeholders": {
+      "extensionName": {
+        "content": "StayFocusd"
+      }
+    }
+  },
+  "notificationSettingsSaved": {
+    "message": "Настройки уведомлений сохранены."
+  },
+  "december": {
+    "message": "декабря"
+  },
+  "onlyAllowPagesOn": {
+    "message": "Разрешить только страницы на сайте",
+    "description": "For example, 'Only allow pages on cnn.com'"
+  },
+  "cannotAllowSitesUsingWildcardsOnceTimeIsUp": {
+    "message": "Так как предельное время на сегодня истекло, вы не можете добавить сайты в список разрешенных с использованием подстановочных знаков. Повторите попытку завтра."
+  },
+  "images": {
+    "message": "изображения",
+    "description": "Images on a website"
+  },
+  "addSiteToBlockedSitesList": {
+    "message": "Добавить $siteName$ в список запрещенных сайтов",
+    "placeholders": {
+      "siteName": {
+        "content": "$1",
+        "example": "YouTube.com"
+      }
+    }
+  },
+  "lessThanThreeMins3": {
+    "message": "Итак, у нас ничего не получается. Неужели я ничего для вас не значу? Неужели вы забудете о нашей дружбе ради пары лишних минут на сайте?"
+  },
+  "lessThanThreeMins4": {
+    "message": "Не могу поверить, что вы действительно нажали \"ОК\"."
+  },
+  "lessThanThreeMins2": {
+    "message": "Нет, ну серьезно! Согласно идее этого расширения, вы не должны добавлять себе время. Вы хорошо подумали?"
+  },
+  "initResetTimeMsg": {
+    "message": "Начиная с $msgTime$ $msgDate$ время ежедневного сброса будет $resetTime$",
+    "description": "When fully parsed, the message will read something like: 'Starting on April 15, 2012 at 7:56 PM, your Daily Reset Time will be 11:00 PM'",
+    "placeholders": {
+      "msgTime": {
+        "content": "$2",
+        "example": "11:00 AM"
+      },
+      "msgDate": {
+        "content": "$1",
+        "example": "January 1, 2012"
+      },
+      "resetTime": {
+        "content": "$3",
+        "example": "9:00 AM"
+      }
+    }
+  },
+  "allow": {
+    "message": "Разрешить",
+    "description": "Allow access"
+  },
+  "june": {
+    "message": "июня"
+  },
+  "cannotClearBlockedSitesOnceTimeIsUp": {
+    "message": "Так как предельное время на сегодня истекло, вы не можете очистить список запрещенных сайтов. Повторите попытку завтра."
+  },
+  "cannotAllowBlockedSiteOnceTimeIsUp": {
+    "message": "Так как предельное время на сегодня истекло, вы не можете разрешить доступ к ранее запрещенному сайту. Повторите попытку завтра."
+  },
+  "today": {
+    "message": "сегодня"
+  },
+  "manifestBrowserActionDefaultTitle": {
+    "message": "Запретить или разрешить этот сайт",
+    "description": "Tooltip displayed when user hovers over extension icon. Tells them what they can do if they click the icon."
+  },
+  "dailyResetSet": {
+    "message": "Время ежедневного сброса настроено."
+  },
+  "inactive": {
+    "message": "неактивно",
+    "description": "Extension is not currently tracking time on blocked sites"
+  },
+  "mustSelectSettingsFile": {
+    "message": "Вы должны выбрать файл настроек для импорта. Нажмите \"Выбрать файл\"."
+  },
+  "cannotSetMoreThan1440Mins": {
+    "message": "Предельное время не может превышать 1440 минут (что составляет 24 часа)."
+  },
+  "startingTime": {
+    "message": "запуск",
+    "description": "Starting at a time, i.e. 'Starting at 1:00 PM' or 'Starting right now'"
+  },
+  "cannotRemoveBlockedSiteDuringNuclearOption": {
+    "message": "Пока действует тотальная блокировка, вы не можете удалить сайты из списка запрещенных.",
+    "description": "In this context, the 'Nuclear Option' is an idiom meaning 'the most extreme option'."
+  },
+  "removeSiteFromBlockedSitesList": {
+    "message": "Удалить $siteName$ из списка запрещенных сайтов",
+    "placeholders": {
+      "siteName": {
+        "content": "$1",
+        "example": "YouTube.com"
+      }
+    }
+  },
+  "august": {
+    "message": "августа"
+  },
+  "timePM": {
+    "message": "PM",
+    "description": "Evening time, i.e. 10:00 PM"
+  },
+  "clickHere": {
+    "message": "Нажмите здесь"
+  },
+  "forms": {
+    "message": "формы",
+    "description": "Forms on a website, i.e. signup form"
+  },
+  "challengeTextTooShort": {
+    "message": "Ваш кодовый текст не может быть короче заданного по умолчанию ($minChars$ знаков)",
+    "placeholders": {
+      "minChars": {
+        "content": "$1",
+        "example": "450"
+      }
+    }
+  },
+  "cannotClearAllowedSitesDuringNuclearOption": {
+    "message": "Пока действует тотальная блокировка, вы не можете очистить список разрешенных сайтов.",
+    "description": "In this context, the 'Nuclear Option' is an idiom meaning 'the most extreme option'."
+  },
+  "enterCustomURL": {
+    "message": "Введите пользовательский URL"
+  },
+  "activityMonitorOverlayLink3": {
+    "message": "чтобы продолжить",
+    "description": "Segment of full string: 'Press any key or click here to continue.'"
+  },
+  "activityMonitorOverlayLink4": {
+    "message": "Нажмите, чтобы разрешить доступ к сайту",
+    "description": "User clicks link to remove an overlay that has been blocking the web page from their view"
+  },
+  "april": {
+    "message": "апреля"
+  },
+  "error": {
+    "message": "ошибка",
+    "description": "An error occurred when blocking a site"
+  },
+  "activityMonitorOverlayLink1": {
+    "message": "Нажмите любую клавишу или",
+    "description": "Segment of full string: 'Press any key or click here to continue.'"
+  },
+  "activityMonitorOverlayLink2": {
+    "message": "нажмите здесь,",
+    "description": "Segment of full string: 'Press any key or click here to continue.'"
+  },
+  "hideForever": {
+    "message": "скрыть навсегда",
+    "description": "Don't show info bar ever again"
+  },
+  "removeFromList": {
+    "message": "Удалить",
+    "description": "Remove from list"
+  },
+  "cannotRemoveSiteOnceTimeIsUp": {
+    "message": "Так как предельное время на сегодня истекло, вы не можете удалить сайт из списка запрещенных. Повторите попытку завтра."
+  },
+  "activeHoursQueued": {
+    "message": "Рабочие часы настроены. ВАЖНО! Эти изменения вступят в силу только через 24 часа."
+  },
+  "cannotSetTimeToZeroOrLess": {
+    "message": "Предельное время может быть только положительным."
+  },
+  "allowCustomURL": {
+    "message": "Разрешить доступ к пользовательскому URL"
+  },
+  "multimedia": {
+    "message": "мультимедиа",
+    "description": "Videos, games, music, etc."
+  },
+  "confirmRequireChallenge": {
+    "message": "Вы уверены, что хотите настроить кодовый текст?"
+  },
+  "nuclear": {
+    "message": "тотальная",
+    "description": "Nuclear Option is currently active"
+  },
+  "meow": {
+    "message": "МЯАААААААААУУУУУ! Довольны?",
+    "description": "The user just clicked a button that warned him that clicking it would electrocute a kitten."
+  },
+  "activityMonitorOverlayBody": {
+    "message": "Вы давно не совершали никаких действий. Отсчет времени $extensionName$ остановлен, так что не бойтесь, что все ваше время вышло.",
+    "description": "Displayed to user when they have been inactive for 5 minutes.",
+    "placeholders": {
+      "extensionName": {
+        "content": "StayFocusd"
+      }
+    }
+  },
+  "problemImportingSettings": {
+    "message": "При импорте настроек произошла ошибка."
+  },
+  "completeChallengeBeforeIncreasingTime": {
+    "message": "Эй, эй! Не так быстро! Кодовый текст введен не полностью. Чтобы увеличить время, вам придется постараться. Нажмите \"ОК\", чтобы признать свое полнейшее, сокрушительное поражение."
+  },
+  "initActiveHoursMsg": {
+    "message": "Начиная с $msgTime$ $msgDate$ ваши рабочие часы будут длиться с $startTime$ до $endTime$",
+    "description": "When fully parsed, the message will read something like: 'Starting on April 15, 2012 at 7:56 PM, your Active Hours will be from 12:00 AM to 11:58 PM'",
+    "placeholders": {
+      "startTime": {
+        "content": "$3",
+        "example": "9:00 AM"
+      },
+      "msgTime": {
+        "content": "$2",
+        "example": "11:00 AM"
+      },
+      "msgDate": {
+        "content": "$1",
+        "example": "January 1, 2012"
+      },
+      "endTime": {
+        "content": "$4",
+        "example": "7:00 PM"
+      }
+    }
+  },
+  "success": {
+    "message": "готово",
+    "description": "Site was successfully blocked"
+  },
+  "allSitesBlockedImmediately": {
+    "message": "Указанное вами время меньше оставшегося на сегодня. Это означает, что все запрещенные сайты будут немедленно заблокированы. Продолжить?"
+  }
+}

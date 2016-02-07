@@ -1,0 +1,16 @@
+{
+  "name": "mayhem",
+  "version": "1.0.0",
+  "description": "StayFocusd ==========",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-mobile-apps": "^2.0.0",
+    "express": "^4.13.4"
+  }
+}
